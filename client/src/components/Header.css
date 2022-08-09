@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+
+.total{
+    height: 60px;
+    width: auto;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    
+    background-color: slategray;
+}
+
+.btncls{
+    margin-left: auto;
+
+}
+
+#btn{
+    background-color: darkorange;
+    border-radius: 10;
+    border-color: darkorange;
+    height: 30px;
+    width: auto;
+    margin: 20px;
+    color: white;
+    padding: 6px;
+    box-shadow: none;
+    text-decoration: none;
+}
