@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "concurrently \"npm install\" \"npm run server\""
+    "start": "node index.js",
+    "heroku-prebuild": "npm install"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
